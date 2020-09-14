@@ -43,7 +43,7 @@ const Shop = () => {
         }
        
         setCart(newCart);
-        addToDatabaseCart(Product.key, count)
+        addToDatabaseCart(Product.key, count);
     };
  
    
@@ -70,7 +70,7 @@ const Shop = () => {
                 </Link>
             </Cart>
             </div>
-            
+         
         </div>
         
     );
